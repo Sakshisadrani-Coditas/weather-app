@@ -1,6 +1,53 @@
 .container {
-  background: linear-gradient(to right, #f0b5ce 0% ,  #8c6bae 90%);
-  border: 0.5px solid #FFFFFF;
+  background: linear-gradient(
+    169.15deg,
+    rgb(92 10 117 / 57%) 0%,
+    rgba(238, 237, 237, 0.2) 96.79%
+  );
+  border: 0.5px solid #ffffff;
+}
+.lightingConditions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  color: #ffffff;
 
-  
+
+  span{
+    padding: 24px;
+  }
+
+  &_sunrise {
+    width: 105px;
+    height: 210px;
+    flex-shrink: 0;
+
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.26);
+  }
+  &_goldenHour {
+    width: 130px;
+    height: 245px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.26);
+  }
+
+  &_sunset {
+    width: 105px;
+    height: 210px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.26);
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+color: #ffffff;
+
+p{
+    margin: 40px;
+}
 }

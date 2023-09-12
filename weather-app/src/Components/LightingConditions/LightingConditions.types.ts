@@ -1,1 +1,3 @@
- export interface LightingConditionsProps {} 
+ export interface LightingConditionsProps {
+    weatherData:any;
+ } 
